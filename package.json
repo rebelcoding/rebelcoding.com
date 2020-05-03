@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "vuepress": "^1.4.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "markdown-it-task-lists": "^2.1.1",
+    "package.json": "^2.0.1"
+  }
+}
