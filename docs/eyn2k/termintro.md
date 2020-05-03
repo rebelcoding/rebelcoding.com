@@ -54,7 +54,7 @@ Just like `cd` we needed to provide a name for the directory to be made.
 
 Then we can `cd` into RCNotebooks as shown above, and onward we continue.
 
-![alt text](images/Untitled-document0.png)
+![alt text](images/image_0.png)
 
 ## SSH & Hidden Folders
 
@@ -76,7 +76,7 @@ And we should now be back in our home directory, if we use the command `ls` we s
 
 Now we make an SSH key, but what does that even mean?
 
-![alt text](images/Untitled-document1.png)
+![alt text](images/image_1.png)
 
 **SSH - Secure Shell**
 
@@ -123,7 +123,7 @@ There ought to be at least two files, one called id_rsa, and another called id_r
 
 You can type `cat id_rsa.pub` to view the files contents.
 
-![alt text](images/Untitled-document2.png)
+![alt text](images/image_2.png)
 
 ## Have you made a GitHub account yet?
 
@@ -135,13 +135,13 @@ Once you’re in your GitHub account, click on your profile picture in the upper
 
 Choose the Settings option.
 
-![alt_text](images/Untitled-document3.png)
+![alt_text](images/image_3.png)
 
 Now that we’re in the Settings menu, we have a set of Settings Categories available to us on the left side of the screen.
 
 Choose the SSH and GPG keys Category.
 
-![alt_text](images/Untitled-document4.png)
+![alt_text](images/image_4.png)
 
 Remember how we used the `cat id_rsa.pub` to view the contents of our public key earlier?
 
@@ -151,7 +151,7 @@ And we will paste that content right into the field, as shown below.
 
 Make sure to give your key a memorable, and descriptive name as well.
 
-![alt_text](images/Untitled-document5.png)
+![alt_text](images/image_5.png)
 
 Now we’re ready to continue!
 
@@ -177,7 +177,7 @@ Last command, make sure to use your GitHub username:
 
 Can you tell what you just did?
 
-![alt_text](images/Untitled-document6.png)
+![alt_text](images/image_6.png)
 
 ## Additional Support
 
