@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'CarbonAds',
+  name: 'RebelAds',
   watch: {
     '$route' (to, from) {
       if (
@@ -8,7 +8,7 @@ export default {
         // Only reload if the ad has been loaded
         // otherwise it's possible that the script is appended but
         // the ads are not loaded yet. This would result in duplicated ads.
-        && this.$el.querySelector('#carbonads')
+        && this.$el.querySelector('#rebelads')
       ) {
         this.$el.innerHTML = ''
         this.load()
@@ -20,6 +20,9 @@ export default {
   },
   methods: {
     load () {
+      // I haven't pushed any of this live
+      // am just trying to get the idea working
+      // then I'll remove the script & replace it
       const s = document.createElement('script')
       s.id = '_carbonads_js'
       s.src = `//cdn.carbonads.com/carbon.js?serve=CKYIK2QU&placement=vuejsorg`
@@ -27,13 +30,13 @@ export default {
     }
   },
   render (h) {
-    return h('div', { class: 'carbon-ads' })
+    return h('div', { class: 'rebel-ads' })
   }
 }
 </script>
 
 <style lang="stylus">
-.carbon-ads
+.rebel-ads
   min-height 102px
   padding 1.5rem 1.5rem 0
   margin-bottom -0.5rem
@@ -42,19 +45,19 @@ export default {
     color #444
     font-weight normal
     display inline
-  .carbon-img
+  .rebel-img
     float left
     margin-right 1rem
     border 1px solid $borderColor
     img
       display block
-  .carbon-poweredby
+  .rebel-poweredby
     color #999
     display block
     margin-top 0.5em
 @media (max-width: $MQMobile)
-  .carbon-ads
-    .carbon-img img
+  .rebel-ads
+    .rebel-img img
       width 100px
       height 77px
 </style>
