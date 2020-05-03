@@ -38,6 +38,7 @@ Providing a community where questions are encouraged and space made safe for beg
 + CC small initial network for outreach
 + EYN2K remain incomplete
 + Bootstrapped w/ zero funding
++ Code Testing is not covered as a topic!!!
 
 
 ### Opportunities
