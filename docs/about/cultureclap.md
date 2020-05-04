@@ -12,9 +12,5 @@ Below ~~is~~ will be more concise information regarding my past work and current
 
 If you'd like to review a copy of my resume, it is available [here](https://www.cultureclap.com/files/cultureclap.resume.pdf).
 
-# In Gratitude
 
-I would like to thank the following individuals for their support and oversight in creating Rebel Coding; in no particular order:
-
-+ the Kozmik Yak
-+ Hong Pong
+[![Buy me a coffee](https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg)](https://www.buymeacoffee.com/cultureclap)

@@ -28,6 +28,10 @@ Super stoked to say this one is well on it's way to being completed.
 
 - Complete steps 4-8 ~ which is mainly explaining Django & Vue at this point.
 
+### The Exo-CTO Files
+
+*Surprise!*
+
 ## Platform
 
 Built using JupyterHub
